@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "backgroundImage": "/images/ruou_khu_mo_banner.png"
+  },
+  "story": {
+    "image": "/images/distillery_image.png"
+  },
+  "product": {
+    "items": [
+      {
+        "key": "highland-reserve",
+        "image": "/images/product_card_1.png"
+      },
+      {
+        "key": "copper-bloom",
+        "image": "/images/product_card_2.png"
+      },
+      {
+        "key": "river-stone",
+        "image": "/images/product_card_3.png"
+      }
+    ]
+  },
+  "process": {
+    "backgroundImage": "/images/distillery_image.png"
+  },
+  "gallery": {
+    "images": [
+      "/images/distillery_image.png",
+      "/images/product_card_1.png",
+      "/images/product_card_2.png",
+      "/images/product_card_3.png",
+      "/images/ruou_khu_mo_banner.png",
+      "/images/distillery_image.png"
+    ]
+  },
+  "contact": {
+    "backgroundImage": "/images/distillery_image.png"
+  }
+}

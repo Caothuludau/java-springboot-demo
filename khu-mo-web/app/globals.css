@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/*
+ * Brand tokens — source: UI_UX_BRAND.md
+ * Charcoal, iron gray, copper, gold, mineral white
+ */
+:root {
+  /* Canonical palette — UI_UX_BRAND.md */
+  --brand-charcoal: #111111;
+  --brand-iron-gray: #2b2b2b;
+  --brand-copper: #8a5a3b;
+  --brand-gold: #b08d57;
+  --brand-mineral-white: #edeae4;
+
+  /* Semantic aliases (same values) */
+  --color-charcoal: var(--brand-charcoal);
+  --color-iron-gray: var(--brand-iron-gray);
+  --color-copper: var(--brand-copper);
+  --color-gold: var(--brand-gold);
+  --color-mineral-white: var(--brand-mineral-white);
+}
+
+@theme inline {
+  --color-charcoal: var(--brand-charcoal);
+  --color-iron-gray: var(--brand-iron-gray);
+  --color-copper: var(--brand-copper);
+  --color-gold: var(--brand-gold);
+  --color-mineral-white: var(--brand-mineral-white);
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  background: var(--brand-charcoal);
+  color: var(--brand-mineral-white);
+}
+
+[id] {
+  scroll-margin-top: 5.5rem;
+}

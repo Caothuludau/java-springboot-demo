@@ -1,5 +1,8 @@
-# Khu Mo Distillery Web with Vercel
+# Khu Mo Distillery
 
 ## Overview
-A website used to advertise Khu Mo Distillery products: White Wines - Tropical Fruit Wines - Giftcard - Wines for Special Events
- <br />Version 1: A basic website with Java Spring Boot
+
+This repository currently contains two separate apps:
+
+- `khu-mo-web`: public brochure website (Next.js, current v1 focus)
+- `my-app`: CRM prototype / legacy Java Spring Boot app (kept as-is for now)
